@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         // Selecting the Seekbar
         final SeekBar timeTableSeekBar = (SeekBar) findViewById(R.id.tablesSeekBar);
-        // Selecting the value of listView
+        // Setting the value inside the  listView  variable
         timeTableListView = (ListView) findViewById(R.id.tablesListView);
 
         // Setting max for the tables like 20 for the table
